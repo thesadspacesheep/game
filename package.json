@@ -1,0 +1,14 @@
+{
+  "name": "thesadspacesheep",
+  "uuid": "0db739f5-e31b-4242-90f2-9f43f31b9e98",
+  "creator": {
+    "version": "3.8.0"
+  },
+  "scripts": {
+    "release": "npm run copy:app && npm run copy:public",
+    "release:app": "cp -r ./build/web-mobile/* ../thesadspacesheep.github.io",
+    "release:public": "cp -r ./public/* ../thesadspacesheep.github.io"
+  },
+  "license": "UNLICENSED",
+  "version": "1.0.0"
+}
